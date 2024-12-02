@@ -111,4 +111,32 @@ legend {
 html, body {
   font-family: var(--font-main);
   color: var(--text-color);
-}/*# sourceMappingURL=main.css.map */
+}
+
+.container {
+  max-width: 1200px;
+  max-height: 38px;
+}
+
+.header {
+  background-color: var(--ui-background-color);
+  background-image: url("./../img/header/Hero.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  aspect-ratio: 1440/820;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header {
+    background-image: url("./../img/header/Hero@2x.jpg");
+  }
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+  gap: 20px;
+}
+
+.nav_ul {
+  justify-self: center;
+}
