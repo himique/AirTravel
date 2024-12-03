@@ -1,8 +1,25 @@
 .nav {
+
     display: grid;
-    grid-template-columns: 2fr 8fr 2fr;
-    gap: 20px;
+    grid-template-columns: 2fr 2fr;
+    
+    
 }
-.nav_ul  {
-    justify-self: center;
+
+.nav_nav {
+
+    align-self:center ;
+    justify-self: flex-end;
+}
+
+.nav_logo {
+    align-self: center;
+    justify-self: flex-start;
+}
+.logo {
+    max-width: 41px;
+    max-height: 36px;
+}
+.logo_text{
+    align-self:center
 }

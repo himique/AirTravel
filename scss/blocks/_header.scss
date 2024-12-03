@@ -1,13 +1,11 @@
-
-
 .header {
     background-color: var(--ui-background-color);
     background-image: url('./../img/header/Hero.jpg');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center top;
+    z-index: 2;
     aspect-ratio: 1440 / 820;
 
-  @include retina-bg(url('./../img/header/Hero@2x.jpg'));
+
 
 }
-

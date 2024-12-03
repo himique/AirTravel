@@ -1,1 +1,4 @@
-console.log("Hallo world");
+const info = document.getElementById('profil_click').onclick = getInfo;
+function getInfo() {
+    console.log()  
+}
