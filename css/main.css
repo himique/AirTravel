@@ -116,9 +116,9 @@ body {
 
 .container {
   max-width: 1220px;
-  max-height: 38px;
+  max-height: 64px;
   padding: 0 10px;
-  margin: 26px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 .header {
@@ -129,30 +129,199 @@ body {
   z-index: 2;
   aspect-ratio: 1440/820;
 }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header {
+    background-image: url("./../img/header/Hero@2x.jpg");
+  }
+}
 
 .nav {
   display: grid;
   grid-template-columns: 2fr 2fr;
+  padding: 26px;
 }
 
 .nav_nav {
-  -ms-flex-item-align: center;
-      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   justify-self: flex-end;
 }
 
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 45px;
+}
+
+.menu_img {
+  margin: 10.19px;
+  width: 28.03px;
+  height: 19.88px;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile_img {
+  margin: 10.19px;
+  height: 20.58px;
+  width: 20.58px;
+}
+
+.bell {
+  position: relative;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: end;
+}
+
+.bell_img {
+  margin: 10.19px;
+  width: 16.31px;
+  height: 18.35px;
+}
+
+.bell_notification {
+  display: inline-block;
+  position: absolute;
+  left: 18px;
+  top: 12px;
+  width: 9.17px;
+  height: 9.17px;
+  background-color: var(--item-bell-notification);
+  border-radius: 50%;
+}
+
 .nav_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10.19px;
   -ms-flex-item-align: center;
       align-self: center;
   justify-self: flex-start;
 }
 
 .logo {
-  max-width: 41px;
-  max-height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  max-width: 41.8px;
+  max-height: 36.7px;
 }
 
 .logo_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: 24.4px;
   -ms-flex-item-align: center;
       align-self: center;
+}
+
+.logo_dot {
+  font-size: 24.4px;
+  background: -webkit-radial-gradient(var(--ui-logo-text-dot-gradient-first), var(--ui-logo-text-dot-gradient-second));
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo_text:active {
+  color: var(--ui-logo-text);
+}
+
+.profile:hover {
+  opacity: 0.5;
+}
+
+.profile:active {
+  opacity: 1;
+}
+
+.bell:hover {
+  opacity: 0.5;
+}
+
+.bell:active {
+  opacity: 1;
+}
+
+.menu:hover {
+  opacity: 0.5;
+}
+
+.menu:active {
+  opacity: 1;
+}
+
+.background_item {
+  position: relative;
+  pointer-events: none;
+}
+
+.jet_img {
+  width: 221.62px;
+  height: 221.62px;
+}
+
+.jet {
+  display: inline-block;
+  position: absolute;
+  left: 198px;
+  top: -9px;
+}
+
+.camera_img {
+  width: 127px;
+  height: 127px;
+}
+
+.camera {
+  display: inline-block;
+  position: absolute;
+  left: -37px;
+  top: 142px;
+}
+
+.ball_img {
+  width: 91px;
+  height: 91px;
+}
+
+.ball {
+  display: inline-block;
+  position: absolute;
+  left: 1104px;
+  top: 74px;
+}
+
+.binocle_img {
+  width: 104.6px;
+  height: 104.6px;
+}
+
+.binocle {
+  display: inline-block;
+  position: absolute;
+  left: 165px;
+  top: 379px;
 }

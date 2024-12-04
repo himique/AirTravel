@@ -1,0 +1,64 @@
+
+.background_item {
+   position: relative;
+   pointer-events: none;
+}
+
+.jet_img {
+    width: 221.62px;
+    height: 221.62px;
+}
+
+
+.jet {
+    display: inline-block;
+    position: absolute;
+    
+    left: 198px;
+    top: -9px;
+    // Design
+    // transform: rotate(20.02deg);
+    
+}
+
+.camera_img {
+    width: 127px;
+    height: 127px;
+}
+
+.camera {
+    display: inline-block;
+    position: absolute;
+    left: -37px;
+    top: 142px;
+    
+    
+}
+
+.ball_img {
+    width: 91px;
+    height: 91px;
+}
+
+.ball {
+    display: inline-block;
+    position: absolute;
+    left: 1104px;
+    top: 74px;
+    
+    
+}
+
+.binocle_img {
+    width: 104.6px;
+    height: 104.6px;
+}
+
+.binocle {
+    display: inline-block;
+    position: absolute;
+    left: 165px;
+    top: 379px;
+    
+}
+

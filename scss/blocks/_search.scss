@@ -1,0 +1,66 @@
+// .search-bar {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .search-item {
+//     display: flex;
+//     align-items: center;
+//     background-color: #f0f0f0;
+//     border-radius: 5px;
+//     padding: 10px;
+//     margin-right: 10px;
+// }
+
+// .search-item i {
+//     margin-right: 10px;
+// }
+
+// .search-item input {
+//     border: none;
+//     outline: none;
+//     padding: 5px;
+// }
+
+// .search-button {
+//     background-color: #4CAF50;
+//     color: white;
+//     border: none;
+//     border-radius: 5px;
+//     padding: 10px 20px;
+//     cursor: pointer;
+// }
+
+// .search-button i {
+//     margin-right: 5px;
+// }
+
+
+
+// HTML First version 
+
+// <!-- <div class="search-bar">
+//                 <div class="search-item">
+//                     <i class="fas fa-globe"></i>
+//                     <input type="text" placeholder="Where to?">
+//                 </div>
+//                 <div class="search-item">
+//                     <i class="fas fa-calendar-alt"></i>
+//                     <input type="text" placeholder="MM/DD/YY">
+//                 </div>
+//                 <div class="search-item">
+//                     <i class="fas fa-briefcase"></i>
+//                     <input type="text" placeholder="2 adults">
+//                 </div>
+//                 <button class="search-button">
+//                     <i class="fas fa-search"></i>
+//                 </button>
+//             </div> -->
+
+
+
+// What we need to include in our inputs 
+
+// 1. <input type="radio">
+// 2. <input type="number">
+// 3. <input type="date">
