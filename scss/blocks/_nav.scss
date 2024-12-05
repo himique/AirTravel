@@ -80,6 +80,7 @@
 .logo_text {
     display: flex;
     font-family: var(--font-main);
+    color: var(--ui-logo-text);
     font-weight: 600;
     font-size: 24.4px;
     align-self: center;
@@ -90,6 +91,12 @@
   background: -webkit-radial-gradient(var(--ui-logo-text-dot-gradient-first), var(--ui-logo-text-dot-gradient-second));
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.logo_text:visited{
+    color: var(--ui-logo-text);
+}
+.logo_text:hover{
+    color: var(--ui-logo-text);
 }
 
 .logo_text:active{

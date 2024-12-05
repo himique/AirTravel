@@ -1,61 +1,99 @@
-// .search-bar {
-//     display: flex;
-//     align-items: center;
-// }
+.search-bar {
+    display: flex;
+    background-color: #fff;
 
-// .search-item {
-//     display: flex;
-//     align-items: center;
-//     background-color: #f0f0f0;
-//     border-radius: 5px;
-//     padding: 10px;
-//     margin-right: 10px;
-// }
+    height: 130px;
+    width: 870px;
+    border-radius: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
 
-// .search-item i {
-//     margin-right: 10px;
-// }
+.search-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: auto;
+    height: 65px;
 
-// .search-item input {
-//     border: none;
-//     outline: none;
-//     padding: 5px;
-// }
+}
 
-// .search-button {
-//     background-color: #4CAF50;
-//     color: white;
-//     border: none;
-//     border-radius: 5px;
-//     padding: 10px 20px;
-//     cursor: pointer;
-// }
+.search-item input {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
 
-// .search-button i {
-//     margin-right: 5px;
-// }
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-color);
+    color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+
+    cursor: pointer;
+}
 
 
+.search_border {
+    display: flex;
+    position: relative;
+    top: 233px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+    padding: 1px;
+    box-shadow: 0px 7px 28px -15px #514D59;
+    background-color: rgba($color: #514D59, $alpha: 0.25);
+
+}
+
+.search-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: #ffffff, $alpha: 0.65);
+    backdrop-filter: blur(25px);
+
+
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.earth_img {}
+
+.date_img {}
+
+.suitcase {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.suitcase_img {
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+}
+
+.search_img {
+    width: 30px;
+    height: 30px;
+}
 
 // HTML First version 
 
-// <!-- <div class="search-bar">
-//                 <div class="search-item">
-//                     <i class="fas fa-globe"></i>
-//                     <input type="text" placeholder="Where to?">
-//                 </div>
-//                 <div class="search-item">
-//                     <i class="fas fa-calendar-alt"></i>
-//                     <input type="text" placeholder="MM/DD/YY">
-//                 </div>
-//                 <div class="search-item">
-//                     <i class="fas fa-briefcase"></i>
-//                     <input type="text" placeholder="2 adults">
-//                 </div>
-//                 <button class="search-button">
-//                     <i class="fas fa-search"></i>
-//                 </button>
-//             </div> -->
+// <!-- 
 
 
 
