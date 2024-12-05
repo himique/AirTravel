@@ -1,9 +1,9 @@
 .search-bar {
     display: flex;
     background-color: #fff;
-
+    padding: 27.5px 30px;
     height: 130px;
-    width: 870px;
+    width: fit-content;
     border-radius: 20px;
     position: relative;
     justify-content: center;
@@ -12,6 +12,7 @@
 
 .search-item {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #fff;
     width: auto;
@@ -19,10 +20,9 @@
 
 }
 
-.search-item input {
+input {
     border: none;
     outline: none;
-    padding: 5px;
 }
 
 .search-button {
@@ -46,6 +46,8 @@
     align-self: center;
     justify-self: center;
     border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
     padding: 1px;
     box-shadow: 0px 7px 28px -15px #514D59;
     background-color: rgba($color: #514D59, $alpha: 0.25);
@@ -59,31 +61,58 @@
     align-items: center;
     background-color: rgba($color: #ffffff, $alpha: 0.65);
     backdrop-filter: blur(25px);
-
-
     width: fit-content;
     height: fit-content;
     border-radius: 20px;
     padding: 25px;
 }
 
-.earth_img {}
+.earth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
 
-.date_img {}
+.earth_img {
+    width: 29px;
+    height: 29px;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.date_img {
+    width: 26px;
+    height: 29px;
+}
 
 .suitcase {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
 
 }
 
 .suitcase_img {
-    justify-content: center;
-    position: relative;
-    align-items: center;
     width: 26px;
-    height: 26px;
+    height: 29px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
 }
 
 .search_img {
@@ -91,14 +120,68 @@
     height: 30px;
 }
 
-// HTML First version 
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0;
+}
 
-// <!-- 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
+.input_text {
+    justify-content: center;
+    align-self: center;
+    height: 65px;
+    padding: 0px 5px;
 
+}
 
-// What we need to include in our inputs 
+input::placeholder {
+    font-family: var(--font-main);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-color);
+}
 
-// 1. <input type="radio">
-// 2. <input type="number">
-// 3. <input type="date">
+.search_shadow {
+    display: flex;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0px 7px 28px -15px #514D59;
+    border-radius: 20px;
+}
+.search-button:hover{
+   opacity: 0.8;
+
+}
+.search_input {
+    display: flex;
+    width: fit-content;
+    height: 36px;
+    padding: 5px 0 0 0;
+
+}
+
+.search_input:hover {
+    opacity: 0.5;
+}
+
+.input_wraper {
+    display: inline-block;
+    justify-content: center;
+    align-self: center;
+}
+
+.search_desc_text {
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+    opacity: 0.8;
+    justify-content: flex-start;
+}

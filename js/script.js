@@ -3,7 +3,7 @@ const searchButton = document.querySelector('.search-button');
 
 
 function getInfo() {
-    console.log("Click");
+    console.log("STOP CLICKING ME");
 }
 
 
