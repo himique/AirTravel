@@ -3,30 +3,18 @@
     pointer-events: none;
 }
 
-.jet_img {
-    width: 221.62px;
-    height: 221.62px;
-}
 
 
 .jet {
-    display: inline-block;
     position: absolute;
-
-    left: 198px;
+    left: 188px;
     top: -9px;
-    // Design
-    // transform: rotate(20.02deg);
 
 }
 
-.camera_img {
-    width: 127px;
-    height: 127px;
-}
+
 
 .camera {
-    display: inline-block;
     position: absolute;
     left: -37px;
     top: 142px;
@@ -34,27 +22,17 @@
 
 }
 
-.ball_img {
-    width: 91px;
-    height: 91px;
-}
-
 .ball {
-    display: inline-block;
     position: absolute;
     left: 1104px;
-    top: 74px;
+    top: 44px;
 
 
 }
 
-.binocle_img {
-    width: 104.6px;
-    height: 104.6px;
-}
+
 
 .binocle {
-    display: inline-block;
     position: absolute;
     left: 165px;
     top: 379px;
@@ -62,25 +40,14 @@
 }
 
 .arrows {
-    display: inline-block;
     position: absolute;
-    left: 770px;
-    top: 69px;
-}
-
-.arrows_img {
-    width: 323px;
-    height: 323px;
+    left: 735px;
+    top: 26px;
 }
 
 .coffee {
-    display: inline-block;
     position: absolute;
-    left: 1001px;
+    left: 945px;
     top: 180px;
 }
 
-.cofee_img {
-    width: 148px;
-    height: 148px;
-}

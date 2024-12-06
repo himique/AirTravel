@@ -42,7 +42,7 @@ input {
 .search_border {
     display: flex;
     position: relative;
-    top: 233px;
+    top: 235px;
     align-self: center;
     justify-self: center;
     border-radius: 20px;
@@ -115,11 +115,6 @@ input {
     height: 30px;
 }
 
-.search_img {
-    width: 30px;
-    height: 30px;
-}
-
 input[type=number] {
     -moz-appearance: textfield;
     appearance: textfield;
@@ -155,16 +150,21 @@ input::placeholder {
     box-shadow: 0px 7px 28px -15px #514D59;
     border-radius: 20px;
 }
-.search-button:hover{
-   opacity: 0.8;
+
+.search-button:hover {
+    opacity: 0.8;
 
 }
+
 .search_input {
     display: flex;
-    width: fit-content;
+    width: 169px;
     height: 36px;
     padding: 5px 0 0 0;
-
+    font-family: var(--font-main);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-color);
 }
 
 .search_input:hover {
